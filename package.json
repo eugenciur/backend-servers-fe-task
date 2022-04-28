@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "ENVIRONMENT=development netlify-lambda serve src/functions",
+    "build": "ENVIRONMENT=production netlify-lambda build src/functions"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^2.0.15",
+    "webpack": "^5.72.0"
+  }
+}

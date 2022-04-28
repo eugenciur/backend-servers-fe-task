@@ -1,0 +1,9 @@
+[dev]
+command = "npm start" # Command to start your dev server
+port = 3000 # Port that the dev server will be listening on
+publish = "dist"
+functions = "./functions"
+
+[build]
+AWS_LAMBDA_JS_RUNTIME = "nodejs12.16"
+functions = "./functions"
